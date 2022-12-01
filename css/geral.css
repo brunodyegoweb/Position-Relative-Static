@@ -11,8 +11,12 @@
 
 .square-1 {
     background-color: #8a2be2;
+    position: relative;/*Permite o uso das proproedades: left, right, top e botton*/
+    top: 150px
 }
 
 .square-2 {
-    background-color: #0000ff
+    background-color: #0000ff;
+    position: relative;
+    z-index: 1;/*manipula o eixo z*/
 }
