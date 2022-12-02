@@ -1,22 +1,25 @@
 @charset "UTF-8";
 
-.square {
-    line-height: 150px;
-    text-align: center;
+.elementExample {
+    line-height: 200px;
+    text-align: center;/*centraliza o texto verticalmente*/
     color: #fff;
     cursor: pointer;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
 
-.square-1 {
+.elementExample_first {
     background-color: #8a2be2;
-    position: relative;/*Permite o uso das proproedades: left, right, top e botton*/
-    top: 150px
+    position: relative;/*Permite o uso das proproedades: left, right, top e botton, z-index*/
+    top: 200px
 }
 
-.square-2 {
+.elementExample_last  {
     background-color: #0000ff;
-    position: relative;
+    position: relative; 
+}
+
+.elementExample_isActive {
     z-index: 1;/*manipula o eixo z*/
 }
